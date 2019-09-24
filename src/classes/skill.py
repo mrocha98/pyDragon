@@ -1,6 +1,6 @@
 class Skill:
     def __init__(self, nome, descricao, custo):
-        self.nome = nome
+        self.nome = nome.title()
         self.descricao = descricao
         self.custo = custo
 
